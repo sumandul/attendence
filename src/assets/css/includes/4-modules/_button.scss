@@ -1,0 +1,57 @@
+.accordion-button {
+  background-color: red;
+}
+button {
+  outline: 0;
+  border: 0;
+}
+.depart-btn {
+  background-color: $blue;
+  width: 100%;
+  font-family: light;
+  font-size: 10px;
+  border-radius: 10px;
+  padding: 4px 5px;
+  color: $white;
+}
+.search-btn {
+  background-color: $blue;
+  width: 100%;
+  font-family: light;
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 8px 7px;
+  color: $white;
+  text-transform: uppercase;
+}
+.nav-btn {
+  background-color: $blue;
+  margin-right: 20px;
+  .nav-icon {
+    color: $white;
+  }
+}
+.hover-tip {
+  background-color: $blue;
+}
+.department-btn {
+  background-color: $blue;
+  color: $white;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: light;
+  text-transform: capitalize;
+}
+.select-page {
+  outline: 0;
+  border: 1px solid $blue;
+  option {
+    color: $black;
+    text-transform: capitalize;
+  }
+}
+.dots {
+  color: $black;
+  font-size: 15px !important;
+}

@@ -1,0 +1,13 @@
+input {
+  outline: 0;
+  width: 100%;
+  border: 1px solid $bodercolor;
+  border-radius: 10px;
+  padding: 4px 14px;
+  &::placeholder {
+    font-size: 12px;
+    font-family: light;
+
+    border-radius: 6px;
+  }
+}
